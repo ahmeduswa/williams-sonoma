@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Williams Sonoma</title>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <button id="menu-toggle"><i class="fas fa-bars"></i></button>
+        <ul id="menu">
+            <li><span>&lt;</span><a href="index.html">Continue Shopping</a></li>
+        </ul>
+        <div class="logo">
+            <img src="./images/logo.png">
+        </div>
+        <div class="icons">
+            <img src="./images/search.png">
+            <img src="./images/profile.png">
+            <img src="./images/shopping-bag.png">
+        </div>
+    </div>
+
+
+    <section class="checkout-page">
+        <section class="checkout">
+            <div class="product-container">
+                <div class="checkout-product">
+                    <img src="./images/table-mat.png">
+                    <div class="product-description">
+                        <h2>Table Mat</h2>
+                        <p>2 pieces (10" x 10"</p>
+                        <p>$30</p>
+                        <a href="#">See all reviews</a>
+                    </div>
+                </div>
+                <div class="checkout-product">
+                    <img src="./images/napkins.png">
+                    <div class="product-description">
+                        <h2>Napkins</h2>
+                        <p>4 pieces</p>
+                        <p>$40</p>
+                        <a href="#">See all reviews</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="checkout-form">
+            <h2>Checkout</h2>
+            <form>
+                <label>Contact</label>
+                <input type="email" id="email" placeholder="Email">
+                <br>
+                <label>Shipping Address</label>
+                <input type="text" id="country" placeholder="Country/Region">
+                <div class="flex-container">
+                    <input type="text" id="firstname" placeholder="First Name">
+                    <input type="text" id="lastname" placeholder="Last Name">
+                </div>
+                <input type="text" id="address" placeholder="Address">
+                <input type="text" id="apartment" placeholder="AApartment, suite, etc. (Optional)">
+
+                <div class="flex-container">
+                    <input type="text" id="city" placeholder="City">
+                    <input type="text" id="province" placeholder="Province">
+                    <input type="text" id="postal" placeholder="Postal Code">
+                </div>
+                <button class="large-button">Continue</button>
+            </form>
+        </section>
+    </section>
+
+
+    <footer class="footer">
+        <div class="left">
+            <div class="logo-white">
+                <img src="./images/logo-white.png" alt="white logo">
+            </div>
+            <div class="company">
+                <h4>Our Company</h4>
+                <p>About Us</p>
+                <p>Sustainibility</p>
+                <p>Wedding & Gift Registry</p>
+                <p>Careers</p>
+            </div>
+        </div>
+        <div class="middle">
+            <h4>Customer Service</h4>
+            <p>Contact Us</p>
+            <p>Shipping Information</p>
+            <p>Returns & Exchanges</p>
+            <p>Safety Recalls</p>
+        </div>
+        <div class="right">
+            <div class="social">
+                <a href="#"><img src="./images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="./images/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="./images/pinterest.png" alt="Pinterest"></a>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>&copy; 2024 Williams Sonoma. All rights reserved.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="./js/checkout.js"></script>
+</body>
+
+
+</html>
